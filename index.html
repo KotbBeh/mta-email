@@ -13,7 +13,7 @@
     <meta name="HandheldFriendly" content="true">
 
     <title>Title</title>
-    <link rel="shortcut icon" type="image/png" href="images/fav-icon.png">
+    <link rel="shortcut icon" type="image/png" href="">
     <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
 
     <meta name="theme-color" content="#212121">
@@ -100,11 +100,39 @@
     ===================================-->
 
     <section class="py-5">
-        <div class="container">
 
-            <div class="step-back mb-4 d-none" style="text-align:center;">
+        <div class="container">
+            <div class="text-center">
+                <small id="emailHelp" class="form-text text-muted">للحصول علي الروابط يجب ادخال ايميلك ورقم جوال</small>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">سجل الأن</button>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">الايميل</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="phone" class="form-label">رقم الجوال</label>
+                                  <input type="tel" class="form-control" id="phone">
+                                </div>
+                                <div class="mb-3 form-check">
+                                </div>
+                                <button type="submit" class="btn btn-primary">حفظ</button>
+                              </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="step-back mb-4 d-none" style="">
                 <a href="#">عودة للخلف</a>
             </div>
+            
 
 
 
@@ -205,11 +233,13 @@
             <div class="home-3 holder position-relative">
                 <div data-id="step2-1" class="d-none animated fadeOut">
                     <div class="row subject">
-                        <div class="col-9">
+                        <div class="col-8">
                             <p>رياضيات أول ابتدائي</p>
                         </div>
-                        <div class="col-3">
-                            <a href="https://drive.google.com/drive/folders/1afJAqsblD0C1s-saO6dAs2VVJsSPUkdN?usp=sharing">تحميل</a>
+                        <div class="col-4">
+                            <a href="https://drive.google.com/drive/folders/1afJAqsblD0C1s-saO6dAs2VVJsSPUkdN?usp=sharing"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="https://drive.google.com/drive/folders/1afJAqsblD0C1s-saO6dAs2VVJsSPUkdN?usp=sharing"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://drive.google.com/drive/folders/1afJAqsblD0C1s-saO6dAs2VVJsSPUkdN?usp=sharing"><i class="fa-solid fa-download"></i></a>
                         </div>
                     </div>
                     <hr>
